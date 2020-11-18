@@ -1,0 +1,182 @@
+body{
+  background-image: url('image/Background2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.logo{
+   padding-left: 40%;
+   display: none;
+}
+nav{
+    background-color: #007CC7;
+    height: 80px;
+    box-shadow: white 0 0 3px 0;
+}
+nav ul{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+
+}
+nav ul li{
+display: inline;
+    padding: 2.5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background: #4DA8DA;
+    height: 5px;
+    box-shadow: white 0 0 7px 0;
+}
+
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 20px 15px 15px 15px;
+}
+
+.bg-div{
+   overflow: hidden;
+}
+
+.mainContainer{
+
+    border: orangered 0 0 10px 0;
+    box-shadow: black 0 0 3px 0;
+    border-radius: 25px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+
+}
+article{
+    text-align: center;
+}
+article figure{
+    padding: 2px;
+    text-align: center;
+}
+.smallbox{
+    width: 250px;
+    height: 250px;
+    box-shadow: black 0 0 7px 0;
+    border: orangered 2px;
+    border-radius: 25px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+}
+footer{
+    height: 100px;
+    text-align: center;
+    background-color: #007CC7;
+    color: white;
+    box-shadow: white 0 0 10px 0;
+    padding-top: 25px;
+    word-spacing: 4px;
+}
+.fontStyle {
+    font-family: Algerian;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1100px) {
+  .logo-img {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+    .logo{
+        padding-left: 30%;
+    }
+    nav ul{
+        font-size: 14px;
+    }
+
+}
+@media screen and (max-width: 560px) {
+    nav {
+        height: 300px;
+        width: 93%;
+        margin-left: 4%;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        padding: 3.75%;
+    }
+
+    nav ul {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    .logo{
+        padding-left: 20%;
+        width: 200px;
+        height: 70%;
+    }
+    .fontStyle{
+        font-size: 40px;
+    }
+    .smallbox{
+        width: 150px;
+        height: 150px;
+    }
+    nav ul li{
+        padding: 5.5%;
+    }
+    footer{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 300px){
+    .smallbox{
+        width: 100px;
+        height: 100px;
+        padding: 0;
+        font-size: 10px;
+
+    }
+    nav ul li{
+        padding: 7.25%;
+    }
+
+}
+@media screen and (max-width: 250px){
+    .logo{
+        width: 70%;
+    }
+    nav ul{
+        font-size: 60%;
+    }
+    nav{
+        alignment: center;
+    }
+    .fontStyle{
+        font-size: 25px;
+    }
+    .smallbox{
+    margin-left: 0;
+     }
+}
+
+@media screen and (max-width: 160px){
+    footer{
+        width: max-content;
+    }
+}
